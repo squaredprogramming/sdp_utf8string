@@ -4,7 +4,7 @@ Squared'D Programming STL-Style UTF-8 String Class
 This software was written as part of a series of blog post on writing a UTF-8 string class that behaves like std::string. It has all of the same methods as std::string and overloads the cast operator so it can be cast to std::string and std::wstring. The class also supports C++ STL-style iterators. The iterators are constant only though because UTF-8 is a variable-sized type. It wouldn't be possible to supply a mutable reference to any character. Because of this, the iterator will always return an unsigned 32-bit int type or wchar_t on systems that use a 32-bit wchar_t type.
 
 For more information:
-Blogs: squaredprogramming.blogspot.com
+Blogs: http://squaredprogramming.blogspot.com/
        www.gamedev.net/blog/1670-squaredds-journal/
 Email: squaredprogramming@gmail.com
 
